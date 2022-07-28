@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import nltk
-nltk.download('omw-1.4') 
+# nltk.download('omw-1.4') 
 import requests
 import spacy
 
@@ -11,8 +11,8 @@ from bs4 import BeautifulSoup
 # from ttictoc import TicToc
 
 from spacy import displacy
-from textblob import TextBlob
-from gensim.summarization import summarize as gensim_summarizer
+# from textblob import TextBlob
+# from gensim.summarization import summarize as gensim_summarizer
 
 # from sumy.parsers.plaintext import PlaintextParser
 # from sumy.nlp.tokenizers import Tokenizer
