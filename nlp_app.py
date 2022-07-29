@@ -43,7 +43,23 @@ def main():
   nlp = load_spacy()
 
   # text = fetch_text(st.text_area("Enter Text (or URL) and select application from sidebar", "Here is some sample text. When inputing your custom text or URL make sure you delete this text!"))
-  text = st.text_area("","""We review performance and compensation data of the peer group to gain a sense of whether we are providing generally competitive compensation for our named executive officers individually and as a group. For 2020, the nine peer companies were: The Allstate Corporation Hanover Insurance Group Inc. Hartford Financial Services Group Inc. Markel Corporation Selective Insurance Group Inc. State Auto Financial Corporation The Travelers Companies Inc. United Fire Group Inc. W.R. Berkley Corporation""", 
+  text = st.text_area("","""As discussed in this CD&A, the compensation committee considers our peer group when setting compensation amounts and targets. Each year, the compensation committee, with the assistance of its independent compensation consultant, reviews the composition of the peer group to ensure it remains appropriate. Key factors the compensation committee considers during this annual review include operating characteristics, revenue size, asset size, profitability, market value, and total number of employees. Based on the annual review, the compensation committee selects a peer group of companies that are engaged in businesses similar to that of the Company, are of a similar size as the Company, and compete against the Company for talent. In terms of the
+size factors considered, the Company is positioned near the middle of this group. 2020 Peer Group
+• The Allstate Corporation
+• Assurant, Inc.
+• Brighthouse Financial
+• The Chubb Corporation
+• CNO Financial Group, Inc.
+• The Hartford Financial Services Group, Inc.
+• Humana Inc.
+• Lincoln National Corporation
+• Manulife Financial Corporation
+• MetLife, Inc.
+• Principal Financial Group, Inc.
+• The Progressive Corporation
+• Prudential Financial, Inc.
+• The Travelers Companies, Inc.
+• Unum Group""", 
   height=300)
 
   pct = st.slider("Preview length (%)", 0, 100)
