@@ -43,7 +43,7 @@ def main():
   nlp = load_spacy()
 
   # text = fetch_text(st.text_area("Enter Text (or URL) and select application from sidebar", "Here is some sample text. When inputing your custom text or URL make sure you delete this text!"))
-  text = st.text_area("","""We review performance and compensation data of the peer group to gain a sense of whether we are providing generally competitive compensation for our named executive officers individually and as a group. For 2020, the nine peer companies were: The Allstate Corporation Hanover Insurance Group Inc. Hartford Financial Services Group Inc. Markel Corporation Selective Insurance Group Inc. State Auto Financial Corporation The Travelers Companies Inc. United Fire Group Inc. W.R. Berkley Corporation""", 
+  text = st.text_area("","""We review performance and compensation data of the peer group to gain a sense of whether we are providing generally competitive compensation for our named executive officers individually and as a group. For 2020, the nine peer companies were: The Allstate Corporation Inc. Hanover Insurance Group Inc. Hartford Financial Services Group Inc. Markel Corporation Selective Insurance Group Inc. State Auto Financial Corporation The Travelers Companies Inc. United Fire Group Inc. W.R. Berkley Corporation""", 
   height=300)
 
   pct = st.slider("Preview length (%)", 0, 100)
