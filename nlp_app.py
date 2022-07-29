@@ -45,7 +45,8 @@ def main():
   # text = fetch_text(st.text_area("Enter Text (or URL) and select application from sidebar", "Here is some sample text. When inputing your custom text or URL make sure you delete this text!"))
   text = st.text_area("","""As discussed in this CD&A, the compensation committee considers our peer group when setting compensation amounts and targets. Each year, the compensation committee, with the assistance of its independent compensation consultant, reviews the composition of the peer group to ensure it remains appropriate. Key factors the compensation committee considers during this annual review include operating characteristics, revenue size, asset size, profitability, market value, and total number of employees. Based on the annual review, the compensation committee selects a peer group of companies that are engaged in businesses similar to that of the Company, are of a similar size as the Company, and compete against the Company for talent. In terms of the
 size factors considered, the Company is positioned near the middle of this group. 2020 Peer Group
-• Assurant
+
+• Assurant Inc
 • Brighthouse Financial
 • The Chubb Corporation
 • CNO Financial Group
@@ -53,7 +54,7 @@ size factors considered, the Company is positioned near the middle of this group
 • Humana
 • Lincoln National Corporation
 • Manulife Financial Corporation
-• MetLife
+• MetLife Inc
 • Principal Financial Group
 • The Progressive Corporation
 • Prudential Financial
